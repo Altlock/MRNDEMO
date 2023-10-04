@@ -1,10 +1,14 @@
 import './App.css';
+import {Container} from 'reactstrap'
+import DefaultRoutes from './routes'
 
 function App() {
   return (
-    <div className="App">
-          Learn the MERN stack
-    </div>
+    <Container>
+      <h1>Sport's App</h1>
+      <DefaultRoutes/>
+    </Container>
+    
   );
 }
 
